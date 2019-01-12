@@ -1,0 +1,26 @@
+mixin nav-content
+  ul
+    li: a(href="#about") About
+    li: a(href="#skills") Skills
+    li: a(href="#projects") Projects
+    li: a(href="#experiences") Experiences
+    li: a(href="#designs") Designs
+    li: a(href="#contact") Contact
+    li: a(href="#extras") Extras
+
+.mobile-nav
+  +nav-content()
+
+
+
+header
+  .header-position
+    h1.logo Richard Hong
+
+    nav.site-nav
+      +nav-content()
+
+    a(href="mailto:r.hong@pm.me").email-link +email me
+
+    .mobile-nav-toggle: span
+    
