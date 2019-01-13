@@ -535,14 +535,12 @@ section.about {
   position: center center;
   background-size: auto;
   background-position: center center;
-  min-height: 80vh; }
-  section.about .content {
-    padding-top: 200px; }
+  min-height: 100vh; }
   section.about h1 {
     color: white;
-    font-size: 800%;
-    font-weight: 800;
-    padding-bottom: 40px; }
+    font-size: 1600%;
+    font-weight: 1600;
+    padding-left: 10%; }
   section.about p, section.about p1, section.about p2 {
     text-shadow: 2px 2px 5px black;
     color: white;
@@ -556,7 +554,8 @@ section.about {
   section.about .home-cta {
     max-width: 200px; }
   section.about a {
-    color: black; }
+    color: black;
+    display: inline; }
 
 section.skills {
   background: url(../img/black1.jpg);
