@@ -1,4 +1,57 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* PROFILE CONTENT */
+
+id #pick{
+
+}
+
+.translucent-box1, .translucent-box2, .translucent-box3, .translucent-box4, .translucent-box5, .translucent-box6{
+    z-index: 1000;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: -100%;
+}
+
+.profcontent {
+    align-items: center;
+    display: flex;
+}
+.left-box {
+    margin-top: 20%;
+    text-align: right;
+    color: white;
+    width: 50%;
+    padding-right: 1%
+}
+.right-box {
+    padding-left: 1%;
+    margin-top: 20%;
+    text-align: left;
+    color: white;
+    width: 50%;
+}
+.right-box h1 h3 input {
+    padding: 8%;
+}
+.left-box h1 h3 input {
+    padding: 8%;
+}
+
+
+.cancel {
+    text-decoration: none;
+    top: 4%;
+    right: 6%;
+    position: absolute;
+    float: right;
+    z-index: 100;
+}
+
+
+
+
 input[type]{
   min-width: 80%;
   height: 100%;

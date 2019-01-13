@@ -13,9 +13,121 @@
     <link href="css/jquery.fancybox.css" rel="stylesheet">
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
+    <script src="check.js"></script>
     </head>
     <body>
+      <!-- PROFILES -->
+
+      <div class="translucent-box1">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="profile.png" alt="emoji" align="right" style="height:100%; padding-left:2%;">
+                  <h1>Parth Solanki</h1>
+                  <h3>Status</h3>
+                  <p>Due to many responsibilities, I have been experiencing extreme stress.</p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="translucent-box2">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="celine.png" alt="emoji" align="right" style="max-height:200px; padding-left:2%;">
+                  <h1>Celine Nguyen</h1>
+                  <h3>Status</h3>
+                  <p>I feel like I am a burden to others.</p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="translucent-box3">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="bryan.png" alt="emoji" align="right" style="max-height:200px; padding-left:2%;">
+                  <h1>Name Hidden</h1>
+                  <h3>Status</h3>
+                  <p>I think I'm fat every time I look in the mirror, eventhough people say I'm skinny.</p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="translucent-box4">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="profile.png" alt="emoji" align="right" style="max-height:200px; padding-left:2%;">
+                  <h1>Leonard Hui</h1>
+                  <h3>Status</h3>
+                  <p>I feel extreme guilt after binge eating, to the point where I need to vomit.</p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="translucent-box5">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="eric.png" alt="emoji" align="right" style="max-height:200px; padding-left:2%;">
+                  <h1>Name Hidden</h1>
+                  <h3>Status</h3>
+                  <p>Due to past experiences, I have developed a severe mistrust towards friends/family.</p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="translucent-box6">
+
+          <a href="app.html" class="cancel">X</a>
+
+          <div class="profcontent">
+              <div class="left-box" >
+                  <img src="profile.png" alt="emoji" align="right" style="max-height:200px; padding-left:2%;">
+                  <h1>Name Hidden</h1>
+                  <h3>Status</h3>
+                  <p>After serving for Canada in Iraq, I have seen things that I </p>
+              </div>
+              <div class="right-box">
+                  <a href="#" class="try-btn">Request to Message</a>
+              </div>
+
+          </div>
+      </div>
+
+
+
       <section class="navigation">
         <div class="container-fluid">
           <div class="row">
@@ -44,31 +156,31 @@
 
         <div id="map" class="content1" ></div>
           <div class="wrap">
-            <div class="card">
+            <div class="card" onclick="Move('1')">
                 <img src="profile.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Parth Solanki</h1>
-                <p>Due to many responsibilities (school, family), I have been experiencing extreme stress.</p>
+                <p>Due to many responsibilities, I have been experiencing extreme stress.</p>
             </div>
-            <div class="card">
+            <div class="card" onclick="Move('2')">
                 <img src="celine.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Celine Nguyen</h1>
                 <p>I feel like I am a burden to others.</p>
             </div>
-            <div class="card">
+            <div class="card" onclick="Move('3')">
                 <img src="bryan.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Name Hidden</h1>
                 <p>I think I'm fat every time I look in the mirror, eventhough people say I'm skinny.</p>
             </div>
-            <div class="card">
+            <div class="card" onclick="Move('4')">
                 <img src="profile.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Leonard Hui</h1>
                 <p>I feel extreme guilt after binge eating, to the point where I need to vomit.</p>
             </div>
-            <div class="card">
+            <div class="card" onclick="Move('5')">
                 <img src="eric.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Name Hidden</h1>
                 <p>Due to past experiences, I have developed a severe mistrust towards friends/family.</p></div>
-            <div class="card">
+            <div class="card" onclick="Move('6')">
                 <img src="profile.png" alt="emoji" align="left" style="height:100%;">
                 <h1 style="text-align: center; font-size: 200%;">Name Hidden</h1>
                 <p>After serving for Canada in Iraq, I have seen things that I </p></div>
