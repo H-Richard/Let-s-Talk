@@ -1,5 +1,44 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
 
+#map{
+    width: 55%;
+    height: 75vh;
+    display: inline;
+}
+
+.content1{
+    margin: 60px 60px 100px 160px;
+    float: left;
+
+}
+
+.card{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.card:hover{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.wrap{
+    margin-top: 60px;
+    width: 20%;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
@@ -180,7 +219,7 @@ Clearfix
 Headings
 ========================================================================== */
 
-.hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
+.hero h1 { font-size: 40px; font-weight: 100; color: #fff; letter-spacing: -1px; margin-top: 5%; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
 .testimonials h1 { color: #fff; font-size: 43px; font-weight: 100; margin: 20px 0 80px 0; font-style: italic; }
 .features h1 { color: #9197a8; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
@@ -189,7 +228,7 @@ Headings
 Custom Styles
 ========================================================================== */
 p { font-weight: 300; }
-.navigation { background-color: #1F1F1F; }
+.navigation { background-color: #1F1F1F; z-index: 100}
 .nav-last { margin-bottom: 50px; }
 nav ul { list-style: none; padding: 0; }
 nav ul li a { color: rgba(255, 255, 255, 0.6); padding: 20px; display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }

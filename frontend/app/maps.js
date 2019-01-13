@@ -91,37 +91,37 @@ function initMap(listener) {
     });
 
     google.maps.event.addListener(marker1, 'click', function () {
-        user1.style.backgroundColor='orange';
+        user1.style.backgroundColor='black';
         user1.style.color='white';
-        user2.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user2.style.backgroundColor='#A9A9A9';
         user2.style.color='black';
-        user3.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user3.style.backgroundColor='#A9A9A9';
         user3.style.color='black';
-        user4.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user4.style.backgroundColor='#A9A9A9';
         user4.style.color='black';
-        user5.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user5.style.backgroundColor='#A9A9A9';
         user5.style.color='black';
-        user6.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user6.style.backgroundColor='#A9A9A9';
         user6.style.color='black';
     });
 
     google.maps.event.addListener(marker2, 'click', function () {
-        user1.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user1.style.backgroundColor='#A9A9A9';
         user1.style.color='black';
-        user2.style.backgroundColor='orange';
+        user2.style.backgroundColor='black';
         user2.style.color='white';
-        user3.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user3.style.backgroundColor='#A9A9A9';
         user3.style.color='black';
-        user4.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user4.style.backgroundColor='#A9A9A9';
         user4.style.color='black';
-        user5.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user5.style.backgroundColor='#A9A9A9';
         user5.style.color='black';
-        user6.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user6.style.backgroundColor='#A9A9A9';
         user6.style.color='black';
     });
 
     google.maps.event.addListener(marker3, 'click', function () {
-        user1.style.backgroundColor='rgba(0, 0, 0, 0.5);';
+        user1.style.backgroundColor='#A9A9A9';
         user1.style.color='black';
         user2.style.backgroundColor='#A9A9A9';
         user2.style.color='black';
@@ -188,3 +188,4 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         'Error: Your browser doesn\'t support geolocation.');
     infoWindow.open(map);
 }
+
