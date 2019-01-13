@@ -1,19 +1,217 @@
----
-layout: default
-title: Hello!
----
-<div class="home-wrap">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Talk</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link href="css/styles.css?v=1.6" rel="stylesheet">
+    <link href="css/queries.css?v=1.6" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-  <div class="home-sections">
+    </head>
+    <body>
+      <section class="navigation">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+              <nav class="pull">
+                <ul class="top-nav">
+                  <li><a href="#getstarted">Get Started <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#media">What our users are saying <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#features">Why you should talk <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li class="nav-last"><a href="#design">Features <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    {% include sections-about.html %}
-    {% include sections-experiences.html %}
-
-    <!-- sections and stuff -->
-    <div style="height: 2000px">
-    </div>
-
-
-  </div>
-
-</div>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right">
+              <a href="#"><i class="fa fa-navicon fa-2x nav_slide_button"></i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h1 class="animated bounceInDown">Feeling down? Someone's here to talk!</h1>
+              <p class="animated fadeInUpDelay">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+          </div>
+          <div class="row">
+            <!--
+            <div class="col-md-2 col-md-offset-5 text-center">
+              <a href="http://player.vimeo.com/video/87701971?title=0&amp;byline=0&amp;portrait=0&amp;color=1883ad&amp;autoplay=1" class="hero-play-btn various fancybox.iframe">Play Button</a>
+            </div> -->
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <a href="app/app.html" class="get-started-btn">Let's Talk</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="download-now" id="getstarted">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 wp1">
+              <h1>
+              Someone will listen, you just have to talk.
+              </h1>
+              <p>By age 40, about 50% of the population will have or have had a mental illness.<br>Suicide accounts for 24% of all deaths among 15-24 year olds and 16% among 25-44 year olds.<br>
+                The mortality rate due to suicide among men is four times the rate among women.<br>Once depression is recognized, help can make a difference for 80% of people who are affected, allowing them to get back to their regular activities.</p>
+              <a href="https://cmha.ca/resources" target="_blank" class="download-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials" id="media">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div id="firstSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="avatar"><img src="img/av-blaz.png" alt="Blaz Robar"></div>
+                    <h1>I couldnt possibly use my own eyes to look at the stars, thansk Starnught App.</h1>
+                  </li>
+                  <li>
+                    <div class="avatar"><img src="img/av-pete.png" alt="Pete Finlan"></div>
+                    <h1>Staring at the stars has given me feels like never before.</h1>
+                  </li>
+                  <li>
+                    <div class="avatar"><img src="img/av-doge.png" alt="Doge Finbar"></div>
+                    <h1>Much flat, many design, so app. Wow.</h1>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features" id="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 features-leftcol wp2">
+              <h1>Why You Should Talk</h1>
+              <p class="margin-bottom">It can be hard to talk to people about how you feel. You may be worried that they won't take your feelings seriously. You may also be worried about what will happen after you tell them your problems. If you don't talk about your problems, you may find your pent-up tensions or feelings burst out in a way that is embarrassing or inappropriate. You might also find that things may get worse if you don’t try to get on top of them straight away.</p>
+              <h1>Talk About Your Problems, Please</h1>
+              <p>Learning that it's okay to talk about our problems can feel a bit like a trip to the dentist. You know that the discomfort will stop once you get the tooth fixed, but you don't want to go though the process because it hurts too. And sometimes, with emotional issues, you may be embarrassed to share what's really going on for you. That's why it's so important to talk with someone who is comforting and nonjudgmental.</p>
+            </div>
+            <div class="col-md-6 features-rightcol wp3">
+              <h1>You Are Not Alone</h1>
+              <p class="margin-bottom">You may think that you are alone in this world, but in reality many people are suffering from the same problems you are. Meet these people, talk to these people and help each other overcome their problems in life.</p>
+              <h1>Help out others</h1>
+              <p>If you think your life has no value, you are beyond wrong. There are many people in this world that need you and you don't even know. Help others and help yourself by exploring your options with other people on our platform. Everyone reaches a lowpoint in their life, it's important that we learn from these experiences and help others who are experiencing the same things.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="try-btn">Try Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="design" id="design">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="secondSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="col-md-4">
+                      <div class="flat-box">
+                        <div class="colourway colour1"></div>
+                        <p class="title">Extra Startup Juice</p>
+                        <p class="feature-text">Added Feature</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="flat-box">
+                        <div class="colourway colour2"></div>
+                        <p class="title">So Thirsty</p>
+                        <p class="feature-text">Extra nice UI comes with the app</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 design-content">
+                      <h1>So flat you'll want to give it some shadows</h1>
+                      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="col-md-4">
+                      <div class="flat-box">
+                        <div class="colourway colour3"></div>
+                        <p class="title">Extra Startup Juice</p>
+                        <p class="feature-text">Added Feature</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="flat-box">
+                        <div class="colourway colour4"></div>
+                        <p class="title">So Thirsty</p>
+                        <p class="feature-text">Extra nice UI comes with the app</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 design-content">
+                      <h1>So flat you'll want to give it some shadows</h1>
+                      <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-1 col-md-offset-11 text-right controls">
+                <a href="prev" class="prev"><i class="fa fa-angle-left fa-3x"></i></a>
+                <a href="next" class="next"><i class="fa fa-angle-right fa-3x"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <p>Application development started during Starter Hacks 2018, further development to be noted.</p>
+            </div>
+            <div class="col-md-3">
+              <p>Contributors: <br> Richard Hong (Front-end) <br> Parth Solanki (Front-end) <br> more names  (Front-end)</p>
+            </div>
+            <div class="col-md-2 col-md-offset-3">
+              <ul class="footer-nav">
+                <li><a href="#">Get Started Tutorial</a></li>
+                <li><a href="#">Introduction Video</a></li>
+                <li><a href="#">See the Features</a></li>
+                <li><a href="#">Download a Trial</a></li>
+                <li><a href="#">Get in Touch!</a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="badge-btn">Badge Button</a>
+              <p class="footer-credit">Design by <a href="http://www.blazrobar.com">Blaz Robar</a> | Developed by <a href="http://www.peterfinlan.com">Peter Finlan</a></p>
+            </div>
+          </div> -->
+        </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="js/jquery.fancybox.pack.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js?v=1.7"></script>
+      <script src="js/jquery.flexslider.js"></script>
+      <script src="js/jquery.smooth-scroll.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/waypoints.min.js"></script>
+    </body>
+  </html>
