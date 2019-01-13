@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map{
+    width: 70%;
+    height: 100%;
+    display: inline;
+}
+
+.content{
+    margin: 0 50px 50px 50px;
+    float: left;
+}
+
+.card{
+    width:100%;
+    height: 200px;
+    background-color: #A9A9A9;
+    -webkit-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+
+.wrap{
+    margin-top: 50px;
+    width:auto;
+    height: 100%;
+    overflow: scroll;
+}
