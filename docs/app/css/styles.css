@@ -13,7 +13,6 @@ input[type]{
 .content1{
     margin: 60px 60px 100px 160px;
     float: left;
-
 }
 
 .card{
@@ -41,6 +40,8 @@ input[type]{
     height: 75vh;
     overflow-y: scroll;
 }
+
+
 
 
 /* ==========================================================================
