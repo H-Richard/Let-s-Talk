@@ -91,93 +91,57 @@ function initMap(listener) {
     });
 
     google.maps.event.addListener(marker1, 'click', function () {
-        user1.style.backgroundColor='black';
-        user1.style.color='white';
-        user2.style.backgroundColor='#A9A9A9';
-        user2.style.color='black';
-        user3.style.backgroundColor='#A9A9A9';
-        user3.style.color='black';
-        user4.style.backgroundColor='#A9A9A9';
-        user4.style.color='black';
-        user5.style.backgroundColor='#A9A9A9';
-        user5.style.color='black';
-        user6.style.backgroundColor='#A9A9A9';
-        user6.style.color='black';
+        user1.style.backgroundColor='#f4511e';
+        user2.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user3.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user4.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user5.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user6.style.backgroundColor='rgba(0, 0, 0, 0.5)';
     });
 
     google.maps.event.addListener(marker2, 'click', function () {
-        user1.style.backgroundColor='#A9A9A9';
-        user1.style.color='black';
-        user2.style.backgroundColor='black';
-        user2.style.color='white';
-        user3.style.backgroundColor='#A9A9A9';
-        user3.style.color='black';
-        user4.style.backgroundColor='#A9A9A9';
-        user4.style.color='black';
-        user5.style.backgroundColor='#A9A9A9';
-        user5.style.color='black';
-        user6.style.backgroundColor='#A9A9A9';
-        user6.style.color='black';
+        user1.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user2.style.backgroundColor='#f4511e';
+        user3.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user4.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user5.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user6.style.backgroundColor='rgba(0, 0, 0, 0.5)';
     });
 
     google.maps.event.addListener(marker3, 'click', function () {
-        user1.style.backgroundColor='#A9A9A9';
-        user1.style.color='black';
-        user2.style.backgroundColor='#A9A9A9';
-        user2.style.color='black';
-        user3.style.backgroundColor='black';
-        user3.style.color='white';
-        user4.style.backgroundColor='#A9A9A9';
-        user4.style.color='black';
-        user5.style.backgroundColor='#A9A9A9';
-        user5.style.color='black';
-        user6.style.backgroundColor='#A9A9A9';
-        user6.style.color='black';
+        user1.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user2.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user3.style.backgroundColor='#f4511e';
+        user4.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user5.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user6.style.backgroundColor='rgba(0, 0, 0, 0.5)';
     });
 
     google.maps.event.addListener(marker4, 'click', function () {
-        user1.style.backgroundColor='#A9A9A9';
-        user1.style.color='black';
-        user2.style.backgroundColor='#A9A9A9';
-        user2.style.color='black';
-        user3.style.backgroundColor='#A9A9A9';
-        user3.style.color='black';
+        user1.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user2.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user3.style.backgroundColor='rgba(0, 0, 0, 0.5)';
         user4.style.backgroundColor='black';
-        user4.style.color='white';
-        user5.style.backgroundColor='#A9A9A9';
-        user5.style.color='black';
-        user6.style.backgroundColor='#A9A9A9';
-        user6.style.color='black';
+        user5.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user6.style.backgroundColor='rgba(0, 0, 0, 0.5)';
     });
 
     google.maps.event.addListener(marker5, 'click', function () {
-        user1.style.backgroundColor='#A9A9A9';
-        user1.style.color='black';
-        user2.style.backgroundColor='#A9A9A9';
-        user2.style.color='black';
-        user3.style.backgroundColor='#A9A9A9';
-        user3.style.color='black';
-        user4.style.backgroundColor='#A9A9A9';
-        user4.style.color='black';
-        user5.style.backgroundColor='black';
-        user5.style.color='white';
-        user6.style.backgroundColor='#A9A9A9';
-        user6.style.color='black';
+        user1.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user2.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user3.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user4.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user5.style.backgroundColor='#f4511e';
+        user6.style.backgroundColor='rgba(0, 0, 0, 0.5)';
     });
 
     google.maps.event.addListener(marker6, 'click', function () {
-        user1.style.backgroundColor='#A9A9A9';
-        user1.style.color='black';
-        user2.style.backgroundColor='#A9A9A9';
-        user2.style.color='black';
-        user3.style.backgroundColor='#A9A9A9';
-        user3.style.color='black';
-        user4.style.backgroundColor='#A9A9A9';
-        user4.style.color='black';
-        user5.style.backgroundColor='#A9A9A9';
-        user5.style.color='black';
-        user6.style.backgroundColor='black';
-        user6.style.color='white';
+        user1.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user2.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user3.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user4.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user5.style.backgroundColor='rgba(0, 0, 0, 0.5)';
+        user6.style.backgroundColor='#f4511e';
     });
 }
 
