@@ -299,3 +299,63 @@ Waypoints
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD { visibility: visible; }
+
+id #pick{
+
+}
+
+.translucent-box{
+    z-index: 50;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: -100%;
+}
+
+.login{
+  margin-top: 1%;
+  font-size: 200%;
+  font-weight: 250%;
+}
+
+.translucent-box
+    .content {
+        align-items: center top;
+        display: flex;
+    }
+    .left-box {
+        text-align: right;
+        color: white;
+        width: 50%;
+        padding: 3%;
+    }
+    .right-box {
+        text-align: left;
+        color: white;
+        width: 50%;
+        padding: 3%;
+    }
+    .right-box h1 h3 input {
+        padding: 8%;
+    }
+    .left-box h1 h3 input {
+        padding: 8%;
+    }
+
+    .cancel {
+        text-decoration: none;
+        top: 6%;
+        right: 8%;
+        float: right;
+        font-size: 200%;
+        z-index: 100;
+    }
+
+    input[type=text] {
+      color: black
+    }
+
+    input[type=password] {
+      color: black
+    }
