@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: 400; }
 
@@ -388,7 +388,7 @@ body {
   background: #F6F6F8;
   font-size: 14px;
   line-height: 1.6;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Varela Round', sans-serif;
   color: #2E2D33;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -530,14 +530,12 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background: url(../img/1.jpg);
+  background-color: #A3E4D7;
   background-repeat: no-repeat;
   position: center center;
   background-size: auto;
   background-position: center center;
-  min-height: 80vh;
-  -ms-flex-align: center;
-      align-items: center; }
+  min-height: 80vh; }
   section.about .content {
     padding-top: 200px; }
   section.about h1 {
