@@ -1,4 +1,8 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+input[type]{
+  min-width: 80%;
+  height: 100%;
+}
 
 #map{
     width: 55%;
@@ -33,7 +37,7 @@
 
 .wrap{
     margin-top: 60px;
-    width: 20%;
+    width: 25%;
     height: 75vh;
     overflow-y: scroll;
 }
@@ -247,7 +251,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 185px; }
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
 .testimonials { background: #5b6869 url('../img/tBG01.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
-.features { background: #fff url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; }
+.features { background: #fff no-repeat center -1px; padding: 70px 0; height: 45%; }
 .features p { color: #7a8387; font-size: 16px; word-spacing: 2px; line-height: 30px; }
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
 .features-rightcol { padding-left: 60px; }
